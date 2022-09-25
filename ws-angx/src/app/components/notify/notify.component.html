@@ -1,0 +1,10 @@
+<div class="notifications">
+    <div #c class="item-notification" *ngFor="let notification of Notifications">
+        De {{notification.from}} - {{notification.data}} en {{notification.time | date:"HH:mm:ss"}}
+    </div>
+</div>
+<div >
+    <div class="user-item" *ngFor="let user of users; let i = index" (click)="ping(user.id)">
+        {{ i + 1 }} {{ user.userName }} de ID {{user.id}}
+    </div>
+</div>

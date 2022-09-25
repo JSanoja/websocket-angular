@@ -1,0 +1,16 @@
+{
+  "name": "websocket-practice",
+  "version": "0.0.1",
+  "description": "practice ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm -v"
+  },
+  "author": "jsanoja",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2",
+    "websocket": "^1.0.34"
+  }
+}
